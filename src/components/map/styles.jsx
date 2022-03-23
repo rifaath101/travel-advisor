@@ -11,6 +11,7 @@ export default makeStyles(() => ({
   mapContainer: {
     height: '85vh',
     width: '100%',
+    marginTop: '4%',
   },
   markerContainer: {
     position: 'absolute',

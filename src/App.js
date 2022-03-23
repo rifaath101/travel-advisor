@@ -44,7 +44,11 @@ function App() {
     <>
       <CssBaseline />
       <Header setCoordinates={setCoordinates} />
-      <Grid container spacing={3} style={{ width: '100%' }}>
+      <Grid
+        container
+        /* container means flex */ spacing={3}
+        style={{ width: '100%' }}
+      >
         <Grid item xs={12} md={4}>
           <List
             places={filteredPlaces.length ? filteredPlaces : places}
